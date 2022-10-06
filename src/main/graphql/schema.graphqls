@@ -1,0 +1,8 @@
+type Query {
+    random(someInput: SomeInput!): Int
+}
+
+input SomeInput {
+    addressLine1: String!
+    addressLine2: String
+}
